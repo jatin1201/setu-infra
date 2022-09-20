@@ -23,11 +23,11 @@ Run the code
 Once we inside the Setu directory as i mention we are using terraform module so we need to install all the modules of our infrastructure, to do so
 
 - run terraform init
-this will take couple minutes to insatalled all the modules into root 
+this will take couple minutes to installed all the modules into root 
 
-- after the successful execution of init we need to test our code via dry run or more of validation of the code need to done 
+- after the successful execution of init phase of terraform we need to test our code via dry run or more of validation of the code need to be done for that run below command
 
-- for that run terraform plan 
+- run terraform plan 
 This will also take few mooment to load up and generate the output
 
 once you validate the code successfully we need to enforce the changes to the aws account 
