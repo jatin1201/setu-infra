@@ -6,7 +6,7 @@ Prerequisites
 - Terraform 
 - Add aws profile name in the provider.tf
 - AWS CLI must be configured 
-- SSH Key (must be created prior execution of the code and update variable file also please make sure key was created in same region as the provider)
+- SSH Key (must be created prior execution of the code and update variable file also please make sure key was created in same region as the provider, and if you need to go with default ssh key name you need to create key named as test-devops-keypair in us-west-2 region)
 - Change variables.tf if needed (just in case you need to change some naming conventions this is totally optional)
 
 Before executing the code lets understand bit of this code, i followed the terraform module approach (A group of Terraform configuration files contained in a single directory constitute a Terraform module. even a straightforward configuration with a single directory and one or more. A module is tf files. It is regarded as the root module when Terraform commands are executed directly from such a directory.) to launch our desired infrastruture over the aws 
