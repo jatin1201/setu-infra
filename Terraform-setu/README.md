@@ -1,5 +1,6 @@
+Our Goal is to setup backend & frontend infrastructure which is highly scalable in nature as well resiliant too also following the industry recommended security standards
 
-Lets follow the below steps to execute the code 
+Lets follow the below steps to execute the code to deploy Infrastructure 
 
 Prerequisites 
 - AWS Account 
